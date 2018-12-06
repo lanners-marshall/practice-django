@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath djorg2 djorg2.wsgi 
+web: gunicorn djorg2.wsgi --log-file -
